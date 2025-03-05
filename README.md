@@ -76,7 +76,7 @@ can independently sample the directions for the vector which will not lead to co
 The CUDA solution was incredibly efficient with a completion time of 0.459s and a speedup of 758.32 times compared to the serial
  implementation.
 
-## Performamce Comparison
+## Performance Comparison
 To compare the performance of the serial and CUDA implementations, we measure the
 rendering time of a sphere with varying GPUs, grid dimensions, thread number (per
 block), and single vs. double precision. The performance metrics are measured in the
